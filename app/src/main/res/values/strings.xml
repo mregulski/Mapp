@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mapp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="add_city">Dodaj miasto</string>
+    <string name="draw_mode_clear">Wyczyść</string>
+    <string name="desc_remove_city">Usuń to miasto z listy</string>
+    <string name="draw_mode_activate">Rysuj</string>
+    <string name="line_length_tpl">%s km</string>
+</resources>

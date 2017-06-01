@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="150sp"
+             android:layout_height="wrap_content"
+             android:descendantFocusability="blocksDescendants"
+             android:paddingBottom="10dp"
+             android:paddingEnd="5dp"
+             android:paddingStart="5dp"
+             android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:text="Sri Dźajawardanapura Kotte"
+        />
+
+    <ImageButton
+        android:id="@+id/city_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/desc_remove_city"
+        android:src="@drawable/ic_clear_black_16dp"/>
+</FrameLayout>
